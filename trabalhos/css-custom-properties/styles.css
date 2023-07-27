@@ -1,0 +1,44 @@
+:root {
+  --cor-fundo: #f5f5f5;
+  --cor-texto: #333;
+  --cor-amarela: #f1c40f;
+  --cor-vermelha: #e74c3c;
+  --fonte: Helvetica, sans-serif;
+}
+
+.theme-dark {
+  --cor-fundo: #333;
+  --cor-texto: #fff;
+}
+
+.amarelo {
+  color: var(--cor-amarela);
+}
+
+.vermelho {
+  color: var(--cor-vermelha);
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte);
+}
+
+header {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+button {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
