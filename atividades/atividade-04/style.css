@@ -18,6 +18,10 @@ img {
   margin-bottom: 1rem;
 }
 
+.inline {
+  flex-direction: row;
+}
+
 .center {
   display: flex;
   flex-direction: column;
