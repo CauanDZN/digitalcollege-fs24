@@ -1,30 +1,18 @@
-function perguntaNomeMostraNome() {
-  let nome = prompt("Digite o seu nome");
-  alert("Seu nome é: " + nome);
-}
-function chamarjoao() {
-  alert("João");
-}
-function dizUmNome() {
-  let nome = "Ronier";
-  return nome;
-}
-function pi() {
-  return 3.14;
-}
+// Métodos de string
+// let nome = prompt("Digite seu nome");
+// let sobrenome = prompt("Digite seu sobrenome");
+// alert("As iniciais do seu nome são: " + nome.charAt(0) + " e " + sobrenome.charAt(0));
 
-// function quadrado(lado) {
-//     alert(lado)
-//     return lado * lado;
-// }
-// let retorno = quadrado(2);
-// alert(retorno)
+// // Letra maiúscula
+// let ronier = "ronier"
+// alert(ronier.charAt(0).toUpperCase() + ronier.slice(1));
 
-function multi5(numero) {
-  return numero * 5
-}
+// Array
+let produtos = ["camisa", "calça", "bermuda"];
+produtos.push("boné");
+produtos.push("óculos");
+produtos.push("meia");
 
-function soma(n1, n2) {
-  return n1 + n2
-}
-alert(soma(5,2))
+produtos.forEach(produto => {
+    console.log(produto);
+})
