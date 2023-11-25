@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar texto</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    ul {
+      list-style: none;
+    }
+    ul li {
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+    ul li:hover {
+      background-color: #eee;
+    }
+
+    .lista {
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <h1>Adicionar texto</h1>
+  <div class="secao">
+    <input type="text" placeholder="Texto" />
+    <button onclick="adicionarItem()">Adicionar</button>
+    <button onclick="removerItem()">Remover o último</button>
+  </div>
+  <div class="lista">
+    <ul></ul>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
