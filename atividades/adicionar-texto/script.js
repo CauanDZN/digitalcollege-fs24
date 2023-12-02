@@ -2,10 +2,12 @@ const input = document.querySelector('input')
 const lista = document.querySelector('ul')
 
 function adicionarItem() {
-  const item = document.createElement('li')
-  item.innerText = input.value
-  lista.appendChild(item)
-  input.value = ''
+  if (input.value.trim()) {
+    const item = document.createElement('li')
+    item.innerText = input.value
+    lista.appendChild(item)
+    input.value = ''
+  }
 }
 
 function removerItem() {
